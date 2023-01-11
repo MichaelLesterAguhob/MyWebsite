@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -59,24 +60,62 @@ a:hover{
     background-color: maroon;
 }
 
+/* DIVISION 1 */
 #div1{
     background-color: aqua; 
     height: 700px; 
     margin-top: 133px;
+    padding: 0;    
 }
 
+.cont2{
+    float: left;
+    width:30%;
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+    border-right: 2px solid black;
+    background-color: cadetblue;
+}
+
+.cont3{
+    float: left;
+    width:35%;
+    height: 100%;
+    padding: 10px;  
+    background-color: blueviolet;
+    
+}
+.cont4{
+    float: left;
+    width:35%;
+    height: 100%;
+    padding: 10px;  
+    background-color: lightgreen;
+   
+}
+
+#myphoto{
+    max-width: 100%;
+    height: auto;
+}
+/* END OF DIVISION 1 */
+
+.container{
+   clear: both;
+    background-color: aqua; 
+    height: 700px; 
+    margin-top: 8px;
+}
+
+/* Responsiveness */
 @media(max-width:500px){
 
-h1{
-    font-size: 20px;
-}
 
 }
 
 @media(max-width:339px){
-    h1{
-        font-size: 15px;
-    }
+  
     li{
         list-style: none;   
         font-size: small;
@@ -90,9 +129,7 @@ h1{
 }
 
 @media(max-width:280px){
-    h1{
-        font-size: 15px;
-    }
+  
     li{
         list-style: none;   
         font-size: small;
