@@ -55,21 +55,51 @@ a{
     text-decoration: none;
     color: azure;
 }
-A:hover{
+a:hover{
     background-color: maroon;
 }
 
+#div1{
+    background-color: aqua; 
+    height: 700px; 
+    margin-top: 133px;
+}
+
 @media(max-width:500px){
+
 h1{
     font-size: 20px;
 }
-#logo{
-    height: 50px;
+
 }
-.cont{
-    height: 125px;
+
+@media(max-width:339px){
+    h1{
+        font-size: 15px;
+    }
+    li{
+        list-style: none;   
+        font-size: small;
+    }
+    #logo{
+        height: 50px;
+    }
+    #div1{
+        margin-top: 99px;
+    }
 }
+
+@media(max-width:280px){
+    h1{
+        font-size: 15px;
+    }
+    li{
+        list-style: none;   
+        font-size: small;
+    }
+   
 }
+
 
 
 
