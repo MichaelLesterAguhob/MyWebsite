@@ -146,6 +146,10 @@ h2{
     .smt{
         font-size: 2vw;
     }
+
+    .navitem{
+        font-size: 2vw;
+    }
 }
 
 @media(max-width:650px){
@@ -164,6 +168,9 @@ h2{
         height: auto;
         text-align: center;
     }
+    .navitem{
+        font-size: 3vw;
+    }
 }
 
 @media(max-width:500px){
@@ -174,13 +181,17 @@ h2{
         font-size: 2.5vw;
     }
     .smt{
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     .cont2, .cont3, .cont4{
         width: 100%;
         height: auto;
         text-align: center;
+    }
+
+    .navitem{
+        font-size: 3vw;
     }
 }
 
@@ -222,6 +233,10 @@ h2{
         width: 100%;
         height: auto;
         text-align: center;
+    }
+
+    .navitem{
+        font-size: 4vw;
     }
     
 }
