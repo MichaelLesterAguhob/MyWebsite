@@ -83,6 +83,11 @@ a{
     background-color: aquamarine;
     
 }
+
+.myimage{
+    text-align: center;
+}
+
 h2{
     font-size: 2.5vw;
 }
@@ -98,6 +103,13 @@ h2{
 
 .smt{
     font-size: 1vw;
+    color: blue;
+}
+
+table{text-align: center;}
+
+.foot{
+    text-align: left;
 }
 
 .cont3{
@@ -125,7 +137,7 @@ h2{
 .container{
    clear: both;
     background-color: aqua; 
-    height: 700px; 
+    height: 300px; 
     margin-top: 8px;
     padding: 10px;
 }
