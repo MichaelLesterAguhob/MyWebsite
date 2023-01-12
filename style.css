@@ -117,7 +117,7 @@ a{
 #div1{
     clear: both;
     height: auto; 
-    margin-top: 3px;
+    margin-top: 133px;
     padding: 0;      
 }
 
@@ -127,7 +127,7 @@ a{
     height: 100%;
     padding: 10px;
     border-right: 2px solid white;
-    background-color:gray;
+    background-color:none;
     overflow:auto;
     color: white;      
 }
@@ -158,9 +158,10 @@ h2{
     width:35%;
     height: 100%;
     padding: 10px;      
-    background-color:gray;
+    background-color:none;
     overflow:auto;
     color: white; 
+    
 }
 
 .cont4{
@@ -168,7 +169,7 @@ h2{
     width:35%;
     height: 100%;
     padding: 10px;  
-    background-color:gray;
+    background-color:none;
 }
 
 #myphoto{
