@@ -2,11 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body{
     position: relative;
-   
+    background-image: url("img/bg2.gif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -68,10 +73,11 @@ a{
 
 /* DIVISION 1 */
 #div1{
-    background-color: aqua; 
-    height: 700px; 
+    
+    height: auto; 
     margin-top: 133px;
     padding: 0;    
+    
 }
 
 .cont2{
@@ -79,8 +85,10 @@ a{
     width:30%;
     height: 100%;
     padding: 10px;
-    border-right: 2px solid black;
-    background-color: aquamarine;
+    border-right: 2px solid white;
+    background-color: none;
+    overflow:scroll;
+    color: white;
     
 }
 
@@ -101,23 +109,12 @@ h2{
     min-width: 20px;
 }
 
-.smt{
-    font-size: 1vw;
-    color: blue;
-}
-
-table{text-align: center;}
-
-.foot{
-    text-align: left;
-}
-
 .cont3{
     float: left;
     width:35%;
     height: 100%;
     padding: 10px;      
-    background-color: lightseagreen;
+    background-color: none;
 }
 
 .cont4{
@@ -125,7 +122,7 @@ table{text-align: center;}
     width:35%;
     height: 100%;
     padding: 10px;  
-    background-color: blueviolet;
+    background-color: none;
 }
 
 #myphoto{
@@ -136,14 +133,37 @@ table{text-align: center;}
 
 .container{
    clear: both;
-    background-color: aqua; 
+    background-color: none; 
     height: 300px; 
     margin-top: 8px;
     padding: 10px;
+    overflow: hidden;
 }
 
-/* Responsiveness */
+.footer{
+    height: auto; 
+    background-color: darkcyan ;
+    padding: 10px;
+    overflow: hidden;
+    font-size: large;
+}
 
+.socmed{
+    float: left;
+    padding-right: 20px;
+}
+
+.contacts{
+    float: left;
+}
+
+.cprt{
+    clear: both;
+    text-align: center;
+    color: maroon;
+    font-size: large;
+}
+/* Responsiveness */
 @media(max-width:800px){
     a{
         font-size: 2.5vw;
@@ -154,11 +174,9 @@ table{text-align: center;}
         height: auto;
         text-align: center;
     }
-
-    .smt{
-        font-size: 2vw;
+    .cont2{
+        border: none;
     }
-
     .navitem{
         font-size: 2vw;
     }
@@ -171,9 +189,6 @@ table{text-align: center;}
     }
     .info{
         font-size: 15px;
-    }
-    .smt{
-        font-size: 2vw;
     }
     .cont2, .cont3, .cont4{
         width: 100%;
@@ -192,9 +207,6 @@ table{text-align: center;}
     a{
         font-size: 2.5vw;
     }
-    .smt{
-        font-size: 3vw;
-    }
 
     .cont2, .cont3, .cont4{
         width: 100%;
@@ -204,6 +216,13 @@ table{text-align: center;}
 
     .navitem{
         font-size: 3vw;
+    }
+
+    body{
+        
+        background-image: url("img/bg1.gif");
+       
+        
     }
 }
 
@@ -237,9 +256,6 @@ table{text-align: center;}
     #div1{
         margin-top: 99px;
     }
-    .smt{
-        font-size: 4vw;
-    }
 
     .cont2, .cont3, .cont4{
         width: 100%;
@@ -266,10 +282,6 @@ table{text-align: center;}
     li{
         list-style: none;   
         font-size: small;
-    }
-
-    .smt{
-        font-size: 4vw;
     }
 
     .cont2, .cont3, .cont4{
