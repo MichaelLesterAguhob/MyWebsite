@@ -54,7 +54,7 @@ header{
     margin-right: 20px;
 }
 
-li{
+.navlink{
     list-style: none;   
 }
 
@@ -71,10 +71,53 @@ a{
     color: blue;
 }
 
-/* DIVISION 1 */
-#div1{
-    height: auto; 
+            /* Home */
+.div01{
     margin-top: 133px;
+    height: 560px;
+    width: 100%;
+}
+.photointro{
+    float: left;
+    width: 35%;
+    padding: 10px;
+}
+
+.intro{
+    float: left;
+    width: 65%;
+    height: 100%;
+    padding: 10px;
+    margin-top: 10%;
+}
+
+.introtext{
+    text-align: center;
+    font-size: 5vw;
+    color: aliceblue;
+}
+
+.pic1{
+    max-width: 85%;
+}
+
+.aboutmebtn{
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 10px;
+    font-size:x-large;
+}
+.aboutmebtn:hover{
+    background-color: skyblue;
+}
+            /* End of Home */
+
+
+            /* DIVISION 1 */
+#div1{
+    clear: both;
+    height: auto; 
+    margin-top: 3px;
     padding: 0;      
 }
 
@@ -84,9 +127,9 @@ a{
     height: 100%;
     padding: 10px;
     border-right: 2px solid white;
-    background-color: none;
+    background-color:gray;
     overflow:auto;
-    color: white;   
+    color: white;      
 }
 
 .myimage{
@@ -115,7 +158,9 @@ h2{
     width:35%;
     height: 100%;
     padding: 10px;      
-    background-color: none;
+    background-color:gray;
+    overflow:auto;
+    color: white; 
 }
 
 .cont4{
@@ -123,7 +168,7 @@ h2{
     width:35%;
     height: 100%;
     padding: 10px;  
-    background-color: none;
+    background-color:gray;
 }
 
 #myphoto{
@@ -139,11 +184,12 @@ h2{
     margin-top: 8px;
     padding: 10px;
     overflow: hidden;
+    color: aliceblue;
 }
 
 .footer{
     height: auto; 
-    background-color: darkcyan ;
+    background-color: rgb(9, 112, 112) ;
     padding: 10px;
     overflow: hidden;
     font-size: large;
@@ -166,9 +212,8 @@ h2{
     justify-content: center;
 }
 
-.tbl1{
-    margin: auto;
-    
+.tbl1, .tbl2{
+    margin: auto; 
 }
 
 .thlogo{
@@ -184,7 +229,43 @@ h2{
 }
 
 /* Responsiveness */
+
+@media(max-width:1100px){
+
+    .div01{
+        height:525px;
+        text-align: left;
+    }
+    .photointro{
+        height: auto;
+        margin: auto;
+        margin-top: 1%;
+    }
+    .intro{
+        margin-top: 20%;
+        padding: 10px;
+    }
+}
 @media(max-width:800px){
+
+    h2{
+        font-size: 30px;
+    }
+
+    .div01{
+        height:500px;
+        text-align: left;
+    }
+    .photointro{
+        height: auto;
+        margin: auto;
+        margin-top: 10%;
+    }
+    .intro{
+        margin-top: 25%;
+        padding: 10px;
+    }
+
     a{
         font-size: 2.5vw;
     }
@@ -208,6 +289,29 @@ h2{
 
 @media(max-width:650px){
 
+    .div01{
+        height:auto;
+        text-align: center;
+        padding: 0px;
+    }
+    .photointro{
+        margin-top: 0;
+        width: 100%;
+        height: auto; 
+    }
+    .pic1{
+        max-width: 53%;
+    }
+
+    .intro{
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+    }
+    .introtext{
+        font-size: 5vw;
+    }
+
     h2{
         font-size: 20px;
     }
@@ -225,6 +329,32 @@ h2{
 }
 
 @media(max-width:500px){
+
+    .div01{
+        height:auto;
+        text-align: center;
+        padding: 0px;
+    }
+    .photointro{
+        padding-top: 10px ;
+        padding-bottom: 10px;
+        margin-top: 0;
+        width: 100%;
+        height: auto;
+    }
+    .pic1{
+        max-width: 65%;
+    }
+
+    .intro{
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .introtext{
+        font-size: 6vw;
+    }
+
     #headertext{
         font-size: 19px;
     }
@@ -252,6 +382,32 @@ h2{
 }
 
 @media(max-width:400px){
+    
+    .div01{
+        height:auto;
+        text-align: center;
+        padding: 0px;
+    }
+    .photointro{
+        padding-top: 25px ;
+        padding-bottom: 20px;
+        margin-top: 0;
+        width: 100%;
+        height: auto;
+    }
+    .pic1{
+        max-width: 80%;
+    }
+
+    .intro{
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .introtext{
+        font-size: 7vw;
+    }
+
     .smt{
         font-size: 4vw;
     }
@@ -265,13 +421,26 @@ h2{
 
 @media(max-width:339px){
   
+    .pic1{
+        max-width: 80%;
+    }
+
+    .intro{
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    .introtext{
+        font-size: 10vw;
+    }
+
     #headertext{
         font-size: 15px;
     }
     a{
         font-size: 3.5vw;
     }
-    li{
+    .navlink{
         list-style: none;   
         font-size: small;
     }
@@ -279,7 +448,7 @@ h2{
         height: 50px;
     }
     #div1{
-        margin-top: 99px;
+        margin-top: 3px;
     }
 
     .cont2, .cont3, .cont4{
@@ -295,11 +464,20 @@ h2{
     .copy{
         font-size: 4vw;
        }
-    
+    .div01{
+        margin-top: 97px;}
 }
 
 @media(max-width:280px){
   
+    .pic1{
+        max-width: 100%;
+    }
+
+    .introtext{
+        font-size: 10vw;
+    }
+
     #headertext{
         font-size: 15px;
     }
@@ -308,7 +486,7 @@ h2{
         font-size: 3.5vw;
     }
 
-    li{
+    .navlink{
         list-style: none;   
         font-size: small;
     }
