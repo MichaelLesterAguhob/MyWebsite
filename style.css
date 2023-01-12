@@ -73,11 +73,9 @@ a{
 
 /* DIVISION 1 */
 #div1{
-    
     height: auto; 
     margin-top: 133px;
-    padding: 0;    
-    
+    padding: 0;      
 }
 
 .cont2{
@@ -87,9 +85,8 @@ a{
     padding: 10px;
     border-right: 2px solid white;
     background-color: none;
-    overflow:scroll;
-    color: white;
-    
+    overflow:auto;
+    color: white;   
 }
 
 .myimage{
@@ -97,7 +94,7 @@ a{
 }
 
 h2{
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 
 .info{
@@ -107,6 +104,10 @@ h2{
 .sm{
     max-width: 75%;
     min-width: 20px;
+}
+
+.smt{
+    color: darkblue;
 }
 
 .cont3{
@@ -162,7 +163,26 @@ h2{
     text-align: center;
     color: maroon;
     font-size: large;
+    justify-content: center;
 }
+
+.tbl1{
+    margin: auto;
+    
+}
+
+.thlogo{
+    width: 70px;
+}
+
+.logo{
+    width: 75%;
+}
+
+.copy{
+ font-size: 1.5vw;
+}
+
 /* Responsiveness */
 @media(max-width:800px){
     a{
@@ -180,6 +200,10 @@ h2{
     .navitem{
         font-size: 2vw;
     }
+
+    .copy{
+        font-size: 20px;
+       }
 }
 
 @media(max-width:650px){
@@ -218,12 +242,13 @@ h2{
         font-size: 3vw;
     }
 
-    body{
-        
-        background-image: url("img/bg1.gif");
-       
-        
+    body{ 
+        background-image: url("img/bg1.gif");  
     }
+
+    .copy{
+        font-size: 4vw;
+       }
 }
 
 @media(max-width:400px){
@@ -266,6 +291,10 @@ h2{
     .navitem{
         font-size: 4vw;
     }
+
+    .copy{
+        font-size: 4vw;
+       }
     
 }
 
@@ -289,6 +318,10 @@ h2{
         height: auto;
         text-align: center;
     }
+
+    .copy{
+        font-size: 10px;
+       }
    
 }
 
