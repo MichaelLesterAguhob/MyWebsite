@@ -35,6 +35,7 @@ header{
     position: fixed;
     top: 20px;
     display: inline;
+    color: rgb(28, 29, 30);
 }
 
 .navbar{
@@ -81,6 +82,9 @@ a{
     float: left;
     width: 35%;
     padding: 10px;
+    height: 100%;
+    text-align: center;
+    margin-top: 5%;
 }
 
 .intro{
@@ -138,6 +142,9 @@ a{
 
 h2{
     font-size: 2vw;
+}
+.name{
+    color: aquamarine;
 }
 
 .info{
