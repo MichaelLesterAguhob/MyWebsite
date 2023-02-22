@@ -4,5 +4,73 @@
 }
 
 body{
-    background-color: cornflowerblue;
+    background-color:skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.recentW{
+   margin: auto;
+   margin-top: 20px; 
+   width: 95%;
+    height: 400px;
+    border: 2px solid black;
+}
+.previousW{
+    margin: auto;
+     width: 95%;
+     height: 400px;
+     border: 2px solid black;
+ }
+
+.home{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+}
+
+.home:hover{
+    cursor: pointer;
+    background-color: green;
+}
+
+
+
+ .footer{
+    height: auto; 
+    background-color: rgb(70, 227, 227) ;
+    padding: 10px;
+    overflow: hidden;
+    font-size: large;
+}
+
+.socmed{
+    float: left;
+    padding-right: 20px;
+}
+
+.contacts{
+    float: left;
+}
+
+.cprt{
+    clear: both;
+    text-align: center;
+    color: maroon;
+    font-size: large;
+    justify-content: center;
+}
+
+.tbl1, .tbl2{
+    margin: auto; 
+}
+
+.thlogo{
+    width: 70px;
+}
+
+.logo{
+    width: 75%;
 }
