@@ -4,6 +4,10 @@
 }
 
 body{
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg fill-opacity='0.8'%3E%3Cpolygon fill='%23040322' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23080544' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%230b0865' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%230f0a87' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23130DA9' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
     background-color:skyblue;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -15,7 +19,7 @@ body{
    width: 80%;
     height: 600px;
     border: 2px solid black;
-    overflow: scroll;
+    overflow:auto;
     min-width: 300px;
 }
 .previousW{
@@ -24,9 +28,26 @@ body{
     width: 80%;
      height: 600px;
      border: 2px solid black;
-     overflow: scroll;
+     overflow: auto;
      min-width: 300px;
  }
+
+ h1{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    
+ }
+ h2{
+    font-family: 'Roboto', sans-serif;
+ }
+
+.iframe{
+    margin: auto;
+    width: 85%;
+    height: 75%;
+   min-width: 300px;
+   margin-bottom: 20px;
+}
 
 .home{
     text-decoration: none;
@@ -41,13 +62,7 @@ body{
     background-color: green;
 }
 
-.iframe1{
-    margin: auto;
-    width: 85%;
-    height: 70%;
-   min-width: 300px;
-}
-
+/*==============Code for my FOOTER==================*/
  .footer{
     height: auto; 
     background-color: rgb(70, 227, 227) ;
